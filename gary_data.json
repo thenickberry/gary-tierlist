@@ -1,4 +1,3 @@
-
 [
     {
       "name": "Garry's mod",
@@ -143,5 +142,29 @@
       "reason": "The image generated when I prompted an AI image generate for 'Create an image of a Gary'",
       "link": null,
       "filename": "GaryGPT.jpg"
+    },
+    {
+      "name": "Garry Kasparov",
+      "tier": "S",
+      "weight": 70,
+      "reason": "Youngest undisputed world chess champion at 22, held the #1 ranking for 20 years straight, and made chess mainstream by taking on IBM's Deep Blue. Absolute peak Gary.",
+      "link": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+      "filename": "GaryKasparov.png"
+    },
+    {
+      "name": "Gary Larson",
+      "tier": "S",
+      "weight": 60,
+      "reason": "Creator of The Far Side So beloved that scientists named an owl louse after him. Also coined 'thagomizer', which is now the actual scientific term for stegosaurus tail spikes.",
+      "link": "https://en.wikipedia.org/wiki/Gary_Larson",
+      "filename": "GaryLarson.png"
+    },
+    {
+      "name": "Gary Gygax",
+      "tier": "S",
+      "weight": 80,
+      "reason": "Co-created Dungeons & Dragons in 1974. Without him, arguably no modern gaming culture. Roll for greatness.",
+      "link": "https://en.wikipedia.org/wiki/Gary_Gygax",
+      "filename": "GaryGygax.png"
     }
 ]
