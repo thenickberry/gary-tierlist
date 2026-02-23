@@ -10,13 +10,6 @@ body {
     color: white;
 }
 
-button {
-    padding: 0;
-    border: 0;
-    width: 90px;
-    height: 90px;
-}
-
 img { 
     width: 90px;
     height: 90px;
@@ -61,16 +54,6 @@ img {
     height: 90px;
     width: 90px;
     color: black;
-}
-  
-.cardBank {
-    width: 80vw;
-    height: 20vh;
-    background-color: #555;
-    margin: 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 5px;
 }
 
 footer {
