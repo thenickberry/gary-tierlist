@@ -166,5 +166,13 @@
       "reason": "Co-created Dungeons & Dragons in 1974. Without him, arguably no modern gaming culture. Roll for greatness.",
       "link": "https://en.wikipedia.org/wiki/Gary_Gygax",
       "filename": "GaryGygax.png"
+    },
+    {
+      "name": "Gary Winthorpe",
+      "tier": "B",
+      "weight": 40,
+      "reason": "The internet's default white guy name. You don't know a Gary Winthorpe, but you definitely know a Gary Winthorpe.",
+      "link": "https://www.youtube.com/@danny",
+      "filename": "GaryWinthorpe.png"
     }
 ]
