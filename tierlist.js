@@ -52,10 +52,10 @@ let addToTier = (gary) => {
     card.className = "card"
 
     // Create img element
-    // let btn = document.createElement("button")
     let img = document.createElement("img")
     let img_src = `images/${gary.filename}`
     img.src = img_src
+    img.alt = gary.name
     let tooltipContent = `<h2>${gary.name}</h2>${gary.reason}`
 
     tippy(img, {
@@ -98,14 +98,17 @@ let buildTierList = () => {
             })
             
             // Sort Garys by weight and add cards
-            for (const [_idx, garys] of Object.entries(garys_by_tier)) {
-                let sorted_garys = _.sortBy(garys, (o) => { return o.weight} )
+            for (const garys of Object.values(garys_by_tier)) {
+                let sorted_garys = garys.sort((a, b) => a.weight - b.weight)
                 sorted_garys.forEach((gary) => {
                     addToTier(gary)
                 })
-                
             }
 
+        })
+        .catch((err) => {
+            console.error('Failed to load gary_data.json:', err)
+            document.getElementById('board').innerHTML = '<p style="color:white;padding:20px;">Failed to load data. Please refresh.</p>'
         })
 }
 
